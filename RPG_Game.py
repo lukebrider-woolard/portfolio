@@ -13,7 +13,7 @@ player_classes = ["Warrior", "Hunter", "Mage", "Priest", "Rogue", "Warlock"]
 # Player start Hit Points.
 player_hp = 25
 
-# Abilities [Name, Damage, Initiative] if Damage is negative is heal.
+# Abilities [Name, Damage, Initiative, Verb] if Damage is negative is heal.
 warrior_abilities = (("Mortal Strike", 4, 2, "use"), ("Charge", 1, 1, "use"), ("Warcry", -2, 1, "use"))
 hunter_abilities = (("Ranged Shot", 3, 2, "use"), ("Quick Shot", 2, 1, "use"), ("Nature Mend", -2, 1, "use"))
 mage_abilities = (("Frost Bolt", 3, 2, "cast"), ("Fire Bolt", 2, 1, "cast"), ("Protective Ward", -2, 1, "cast"))
